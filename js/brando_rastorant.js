@@ -722,7 +722,7 @@
             var s = 10;
             var mSecond = [];
             var win = $(window);   
-            var sec12Top = $('#section12').offset().top;   
+               
             var t = 0;
 
             for(var i=0; i<num.length; i++){
@@ -731,7 +731,7 @@
            
             //Scroll Event
             win.scroll(function(){
-                if( win.scrollTop() > sec12Top){
+                if( win.scrollTop() > $('#section12').offset().top - (window.innerHeight * 0.6)){
                     if(t==0){
                         t=1
                         countFn();
@@ -892,25 +892,25 @@
         },
         scrollEventFn: function(){
             //스크롤 이벤트(패럴럭스)
-            var sec02Top = $('#section02').offset().top-600;
-            var sec03Top = $('#section03').offset().top-600;
-            var sec04Top = $('#section04').offset().top-600;
-            var sec05Top = $('#section05').offset().top-600;
-            var sec06Top = $('#section06').offset().top-600;
-            var sec07Top = $('#section07').offset().top-600;
-            var sec08Top = $('#section08').offset().top-600;
-            var sec09Top = $('#section09').offset().top-600;
-            var sec10Top = $('#section10').offset().top-600;
-            var sec11Top = $('#section11').offset().top-600;
-            var sec12Top = $('#section12').offset().top-600;
-            var sec13Top = $('#section13').offset().top-600;
-            var sec14Top = $('#section14').offset().top-600;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             var win = $(window);
 
                 win.scroll(function(){
                     
                     //섹션2 페럴럭스
-                    if( win.scrollTop() > sec02Top ){
+                    if( win.scrollTop() > $('#section02').offset().top - (window.innerHeight * 0.6) ){
                         $('#section02').addClass('addEvent');
                     }
                     else{
@@ -918,7 +918,7 @@
                     }
 
                     //섹션3 페럴럭스
-                    if( win.scrollTop() > sec03Top ){
+                    if( win.scrollTop() > $('#section03').offset().top - (window.innerHeight * 0.6) ){
                         $('#section03').addClass('addEvent');
                     }
                     else{
@@ -926,7 +926,7 @@
                     }
 
                     //섹션4 페럴럭스
-                    if( win.scrollTop() > sec04Top ){
+                    if( win.scrollTop() > $('#section04').offset().top - (window.innerHeight * 0.6) ){
                         $('#section04').addClass('addEvent');
                     }
                     else{
@@ -934,7 +934,7 @@
                     }
 
                     //섹션5 페럴럭스
-                    if( win.scrollTop() > sec05Top ){
+                    if( win.scrollTop() > $('#section05').offset().top - (window.innerHeight * 0.6) ){
                         $('#section05').addClass('addEvent');
                     }
                     else{
@@ -955,14 +955,12 @@
             var n = section.length; //13개            
 
                 //오프셋 탑값 배열처리
-                for(var i=0;i<=n-1;i++){ //0 ~ 12(13)
-                    secTop[i] = section.eq(i).offset().top-600; //섹션2 ~ 섹션14
-                }
+                
 
                 //페럴럭스 스크롤 이벤트 반복처리 for
                 win.scroll(function(){
                     for(var i=0;i<=n-1;i++){
-                        if( win.scrollTop() > secTop[i]   ){
+                        if( win.scrollTop() > section.eq(i).offset().top - (window.innerHeight * 0.6)   ){
                             section.eq(i).addClass('addEvent'); //섹션2
                         }
                         else{

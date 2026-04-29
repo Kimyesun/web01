@@ -87,7 +87,7 @@
 #main  .section234 .wrap {width:100%;max-width:1170px;height:100%;margin:0 auto;}
 #main  .section234 .wrap .gap {margin:0 15px;height:100%;}
 #main  .section234 .wrap .gap .container {position:relative;width:100%;height:100%;}
-#main  .section234 .wrap .gap .container .content-wrap {z-index:1;position:absolute;right:0;top:209.5px;margin-top:300px;opacity:0;transition:all 1s;width:100%;max-width:450px;height:550px;background:#fff;}
+#main  .section234 .wrap .gap .container .content-wrap {z-index:1;position:absolute;right:0;top:209.5px;margin-top:100px;opacity:0;transition:all 1s;width:100%;max-width:450px;height:550px;background:#fff;}
 #main  .section234.addEvent .wrap .gap .container .content-wrap {margin-top:0;opacity:1;}  /* 섹션2 애니메이션 중복 top값 */
 #main  .section3   .wrap .gap .container .content-wrap {left:0;}
 #main  .section234 .wrap .gap .container .content-wrap::after {z-index:2;content:"";display:block;position:absolute;top:5.090909%;left:6.222222%;width:87.555556%;height:89.818182%;outline:8px solid #d8b75f;}
