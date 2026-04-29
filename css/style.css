@@ -77,13 +77,13 @@
 #main  #section01 .slide-container .slide-view .slide-wrap .slide2 {z-index:1;}  
 
 #main  #section01 .slide-container .slide-view .slide-wrap .slide div {width:100%;height:100%;overflow:hidden;}
-#main  #section01 .slide-container .slide-view .slide-wrap .slide0 div {background:url(../img/shish-kebab-417994_1920.jpg) no-repeat 50% 0;background-size:cover;}
+#main  #section01 .slide-container .slide-view .slide-wrap .slide0 div {background:url(../img/shish-kebab-417994_1920.png) no-repeat 50% 0;background-size:cover;}
 #main  #section01 .slide-container .slide-view .slide-wrap .slide1 div {background:url(../img/cupcakes-690040_1920.jpg) no-repeat 50% 0;background-size:cover;}
 #main  #section01 .slide-container .slide-view .slide-wrap .slide2 div {background:url(../img/pasta-1181189_1920.jpg) no-repeat 50% 0;background-size:cover;}
-#main  #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/raspberry-2023404_1920.jpg) no-repeat 50% 0;background-size:cover;}
+#main  #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/raspberry-2023404_1920.png) no-repeat 50% 0;background-size:cover;}
 
 
-#main  .section234 {width:100%;height:969px;background:url(../img/restaurant-img1.jpg) no-repeat 50% 0 fixed;background-size:cover;}
+#main  .section234 {width: 100%;height:969px;background:url(../img/restaurant-img2.png) no-repeat 50% 0 fixed;background-size:cover; }
 #main  .section234 .wrap {width:100%;max-width:1170px;height:100%;margin:0 auto;}
 #main  .section234 .wrap .gap {margin:0 15px;height:100%;}
 #main  .section234 .wrap .gap .container {position:relative;width:100%;height:100%;}
@@ -107,8 +107,8 @@
 #main  .section234 .wrap .gap .container .content-wrap .text-gap .text-wrap span a img {width:11.03448%;}
 
 
-#main  #section03 {width:100%;height:969px;background:url(../img/restaurant-img2.jpg) no-repeat 50% 0 fixed;background-size:cover;}
-#main  #section04 {width:100%;height:969px;background:url(../img/restaurant-img3.jpg) no-repeat 50% 0 fixed;background-size:cover;}
+#main  #section03 {width:100%;height:969px;background:url(../img/restaurant-img1.png) no-repeat 50% 0 fixed;background-size:cover;}
+#main  #section04 {width:100%;height:969px;background:url(../img/restaurant-img3.png) no-repeat 50% 0 fixed;background-size:cover;}
 
 #main  #section05 {width:100%;height:auto;background:#dcdcdc url(../img/restaurant-img7.jpg);padding:130px 0;}
 #main  #section05 .wrap {width:100%;max-width:1170px;height:auto;margin:300px auto 0 auto;opacity:1;transition:all 1s;}
