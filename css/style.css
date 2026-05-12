@@ -77,13 +77,13 @@
 #main  #section01 .slide-container .slide-view .slide-wrap .slide2 {z-index:1;}  
 
 #main  #section01 .slide-container .slide-view .slide-wrap .slide div {width:100%;height:100%;overflow:hidden;}
-#main  #section01 .slide-container .slide-view .slide-wrap .slide0 div {background:url(../img/shish-kebab-417994_1920.jpg) no-repeat 50% 0;background-size:cover;}
+#main  #section01 .slide-container .slide-view .slide-wrap .slide0 div {background:url(../img/shish-kebab-417994_1920.png) no-repeat 50% 0;background-size:cover;}
 #main  #section01 .slide-container .slide-view .slide-wrap .slide1 div {background:url(../img/cupcakes-690040_1920.jpg) no-repeat 50% 0;background-size:cover;}
 #main  #section01 .slide-container .slide-view .slide-wrap .slide2 div {background:url(../img/pasta-1181189_1920.jpg) no-repeat 50% 0;background-size:cover;}
-#main  #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/raspberry-2023404_1920.jpg) no-repeat 50% 0;background-size:cover;}
+#main  #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/raspberry-2023404_1920.png) no-repeat 50% 0;background-size:cover;}
 
 
-#main  .section234 {width:100%;height:969px;background:url(../img/restaurant-img1.jpg) no-repeat 50% 0 fixed;background-size:cover;}
+#main  .section234 {width: 100%;height:969px;background:url(../img/restaurant-img2.png) no-repeat 50% 0 fixed;background-size:cover; }
 #main  .section234 .wrap {width:100%;max-width:1170px;height:100%;margin:0 auto;}
 #main  .section234 .wrap .gap {margin:0 15px;height:100%;}
 #main  .section234 .wrap .gap .container {position:relative;width:100%;height:100%;}
@@ -107,8 +107,8 @@
 #main  .section234 .wrap .gap .container .content-wrap .text-gap .text-wrap span a img {width:11.03448%;}
 
 
-#main  #section03 {width:100%;height:969px;background:url(../img/restaurant-img2.jpg) no-repeat 50% 0 fixed;background-size:cover;}
-#main  #section04 {width:100%;height:969px;background:url(../img/restaurant-img3.jpg) no-repeat 50% 0 fixed;background-size:cover;}
+#main  #section03 {width:100%;height:969px;background:url(../img/restaurant-img1.png) no-repeat 50% 0 fixed;background-size:cover;}
+#main  #section04 {width:100%;height:969px;background:url(../img/restaurant-img3.png) no-repeat 50% 0 fixed;background-size:cover;}
 
 #main  #section05 {width:100%;height:auto;background:#dcdcdc url(../img/restaurant-img7.jpg);padding:130px 0;}
 #main  #section05 .wrap {width:100%;max-width:1170px;height:auto;margin:300px auto 0 auto;opacity:1;transition:all 1s;}
@@ -166,13 +166,14 @@
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul {width:100%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li {border-bottom:1px solid #ddd;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li:last-child {border-bottom:0;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul {width:100%;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li {float:left;padding:1.0341975%  0;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul {display:flex;align-items:center;width:100%;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li {float:none;padding:1.0341975%  0;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(1) {width:24.9182681%;}  /* 120.4715202px; */
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(1) div {padding:10.7909321%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(2) {width:75.0817319%;}  /* 362.9951465px; */
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(2) div {padding:5.5097155%  0;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div img {width:100%;max-width:70px;border-radius:50%;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div img {display:block;width:70px;height:70px;margin:0 auto;border-radius:50%;object-fit:cover;object-position:center;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap img[src*="restaurant-img10"] {object-position:center 40%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div h3 {font-size:13px;color:#614c45;font-weight:600;font-family:'Montserrat';padding-bottom:6px;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div p {font-size:13px;color:#626262;line-height:150%;width:90%;}
 
@@ -254,7 +255,7 @@
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(6) {top:calc(356.8125px*1);left:calc(25%*1);width:25%;height:356.8125px;}
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(7) {top:calc(356.8125px*1);left:calc(25%*2);width:25%;height:356.8125px;}
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(8) {top:calc(356.8125px*1);left:calc(25%*3);width:25%;height:356.8125px;}
-#main  #section09  .wrap .gap .container .content .gallery li div {width:100%;transform:scale(0);transition:all .5s;}
+#main  #section09  .wrap .gap .container .content .gallery li div {width:100%;height:100%;transform:scale(0);transition:all .5s;}
 #main  #section09  .wrap .gap .container .content .gallery.addZoom li div {transform:scale(1);}
 
 /* 
@@ -275,8 +276,8 @@
 
 
 #main  #section09  .wrap .gap .container .content .gallery li:hover div {margin-top:-105px;}
-#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn {cursor:url(../img/icon-zoom.png),auto;}
-#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn img {width:100%;transform:scale(.95);transition:transform .4s;}
+#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn {display:flex;align-items:center;justify-content:center;width:100%;height:100%;cursor:url(../img/icon-zoom.png),auto;}
+#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn img {display:block;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(.95);transition:transform .4s;}
 #main  #section09  .wrap .gap .container .content .gallery li.addZoom2 div a.gallery-img-btn img {transform:scale(1);}
 
 #main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-caption {display:block;width:100%;text-align:center;padding:20px 0 35px 0;text-transform:uppercase;background:#fff;}
@@ -299,7 +300,7 @@
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box {width:100%;max-width:701.25px;margin:0 auto;/* 1024 이하에서 창너비 100%*/}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left {float:left;width:200px;/* 미디어쿼리 1024 이하에서 margin:0 auto; 플로팅해제 박스 가운데*/}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap {position:relative;width:100%;height:200px;}
-#main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap img {z-index:1;position:relative;width:100%;max-width:200px;border:8px solid #fff;border-radius:50%;box-sizing:border-box;}
+#main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap img {z-index:1;position:relative;display:block;width:100%;height:100%;border:8px solid #fff;border-radius:50%;box-sizing:border-box;object-fit:cover;object-position:center;}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap span {display:block;z-index:2;position:absolute;top:40px;right:-27.5px;}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap span i {color:#614c45;font-size:55px;font-weight:900;}
 
@@ -333,18 +334,24 @@
 #main  #section11 .wrap .gap .container > ul > li > div {margin:15px;}
 #main  #section11 .wrap .gap .container > ul > li > div ul {width:100%;background:#fff;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li {position:relative;float:left;width:50%;} 
+#main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(1) {height:277px;overflow:hidden;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(2) {height:277px;} /*  좌측 이미지 박스높이로 우측박스 높이설정 js 높이설정 */
 #main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(2):before {content:'';display:block;position:absolute;top:50%;left:-30px;margin-top:-15px;border:15px solid #fff;border-top:15px solid transparent;border-bottom:15px solid transparent;border-left:15px solid transparent;} 
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div {width:100%;height:100%;overflow:hidden;display:table;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div img{width:100%;transition:all .3s;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(1) > div {display:block;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:all .3s;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div img[src*="blog-post-img5"] {object-position:center 65%;transform:none;}
+#main  #section11 .wrap .gap .container > ul > li:hover > div ul li > div img[src*="blog-post-img5"],
+#main  #section11 .wrap .gap .container > ul > li:focus > div ul li > div img[src*="blog-post-img5"] {transform:none;}
 #main  #section11 .wrap .gap .container > ul > li:hover > div ul li > div img{transform:scale(1.15);}
 #main  #section11 .wrap .gap .container > ul > li:focus {outline:0;}
 #main  #section11 .wrap .gap .container > ul > li:focus > div ul li > div img{transform:scale(1.15);}
 
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div {display:table-cell;vertical-align:middle;text-align:center;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div h3 {font-size:11px;color:#ababab;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p {font-size:20px;line-height:135%;padding:7.2202166%  14.4404332%;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p a {color:#626262;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div {display:table-cell;vertical-align:top;text-align:center;padding:28px 0 24px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div h3 {font-size:11px;color:#ababab;margin-bottom:10px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.post-title {font-size:20px;line-height:135%;padding:0 14.4404332% 10px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.post-title a {color:#626262;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.excerpt {font-size:13px;line-height:150%;color:#8a8a8a;padding:0 14.4404332% 12px;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div div h6 {width:100%;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div div h6 i {display:inline-block;width:30px;height:2.2px;background:#c8a64b}
 
