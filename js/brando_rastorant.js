@@ -514,21 +514,21 @@
                                     hide = [];
                                     show = [0,1,2,3,4,5,6,7];
                                     break;
-                                case 1:
-                                    hide = [0,2];
-                                    show = [1,3,4,5,6,7]
+                                case 1: // 아침 헌상
+                                    hide = [2,4,5,6,7];
+                                    show = [0,1,3];
                                     break;
-                                case 2:
-                                    hide = [1,3,4,5];
-                                    show = [0,2,6,7];
+                                case 2: // 낮것상
+                                    hide = [0,1,2,3,5];
+                                    show = [4,6,7];
                                     break;
-                                case 3:
-                                    hide = [0,2,5];
-                                    show = [1,3,4,6,7];
+                                case 3: // 차와 다과
+                                    hide = [0,1,2,3,4,6,7];
+                                    show = [5];
                                     break;
-                                default:
-                                    hide = [0,1,3,6];
-                                    show = [2,4,5,7];
+                                default: // 진연상
+                                    hide = [0,1,3,4,5,6,7];
+                                    show = [2];
                             }
 
                             galleryFn(); //갤러리 메인함수 호출 실행

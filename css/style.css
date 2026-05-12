@@ -166,13 +166,14 @@
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul {width:100%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li {border-bottom:1px solid #ddd;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li:last-child {border-bottom:0;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul {width:100%;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li {float:left;padding:1.0341975%  0;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul {display:flex;align-items:center;width:100%;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li {float:none;padding:1.0341975%  0;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(1) {width:24.9182681%;}  /* 120.4715202px; */
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(1) div {padding:10.7909321%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(2) {width:75.0817319%;}  /* 362.9951465px; */
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li:nth-child(2) div {padding:5.5097155%  0;}
-#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div img {width:100%;max-width:70px;border-radius:50%;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div img {display:block;width:70px;height:70px;margin:0 auto;border-radius:50%;object-fit:cover;object-position:center;}
+#main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap img[src*="restaurant-img10"] {object-position:center 40%;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div h3 {font-size:13px;color:#614c45;font-weight:600;font-family:'Montserrat';padding-bottom:6px;}
 #main  #section06 .wrap .container > li .gap .content .large-box .large-box-gap > ul > li ul li div p {font-size:13px;color:#626262;line-height:150%;width:90%;}
 
@@ -254,7 +255,7 @@
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(6) {top:calc(356.8125px*1);left:calc(25%*1);width:25%;height:356.8125px;}
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(7) {top:calc(356.8125px*1);left:calc(25%*2);width:25%;height:356.8125px;}
 #main  #section09  .wrap .gap .container .content .gallery li:nth-child(8) {top:calc(356.8125px*1);left:calc(25%*3);width:25%;height:356.8125px;}
-#main  #section09  .wrap .gap .container .content .gallery li div {width:100%;transform:scale(0);transition:all .5s;}
+#main  #section09  .wrap .gap .container .content .gallery li div {width:100%;height:100%;transform:scale(0);transition:all .5s;}
 #main  #section09  .wrap .gap .container .content .gallery.addZoom li div {transform:scale(1);}
 
 /* 
@@ -275,8 +276,8 @@
 
 
 #main  #section09  .wrap .gap .container .content .gallery li:hover div {margin-top:-105px;}
-#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn {cursor:url(../img/icon-zoom.png),auto;}
-#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn img {width:100%; height: 100%;transform:scale(.95);transition:transform .4s;}
+#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn {display:flex;align-items:center;justify-content:center;width:100%;height:100%;cursor:url(../img/icon-zoom.png),auto;}
+#main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-btn img {display:block;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(.95);transition:transform .4s;}
 #main  #section09  .wrap .gap .container .content .gallery li.addZoom2 div a.gallery-img-btn img {transform:scale(1);}
 
 #main  #section09  .wrap .gap .container .content .gallery li div a.gallery-img-caption {display:block;width:100%;text-align:center;padding:20px 0 35px 0;text-transform:uppercase;background:#fff;}
