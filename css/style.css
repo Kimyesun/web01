@@ -300,7 +300,7 @@
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box {width:100%;max-width:701.25px;margin:0 auto;/* 1024 이하에서 창너비 100%*/}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left {float:left;width:200px;/* 미디어쿼리 1024 이하에서 margin:0 auto; 플로팅해제 박스 가운데*/}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap {position:relative;width:100%;height:200px;}
-#main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap img {z-index:1;position:relative;width:100%;max-width:200px;border:8px solid #fff;border-radius:50%;box-sizing:border-box;}
+#main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap img {z-index:1;position:relative;display:block;width:100%;height:100%;border:8px solid #fff;border-radius:50%;box-sizing:border-box;object-fit:cover;object-position:center;}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap span {display:block;z-index:2;position:absolute;top:40px;right:-27.5px;}
 #main  #section10 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide > div .box .left .img-wrap span i {color:#614c45;font-size:55px;font-weight:900;}
 
@@ -334,18 +334,24 @@
 #main  #section11 .wrap .gap .container > ul > li > div {margin:15px;}
 #main  #section11 .wrap .gap .container > ul > li > div ul {width:100%;background:#fff;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li {position:relative;float:left;width:50%;} 
+#main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(1) {height:277px;overflow:hidden;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(2) {height:277px;} /*  좌측 이미지 박스높이로 우측박스 높이설정 js 높이설정 */
 #main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(2):before {content:'';display:block;position:absolute;top:50%;left:-30px;margin-top:-15px;border:15px solid #fff;border-top:15px solid transparent;border-bottom:15px solid transparent;border-left:15px solid transparent;} 
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div {width:100%;height:100%;overflow:hidden;display:table;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div img{width:100%;transition:all .3s;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li:nth-child(1) > div {display:block;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:all .3s;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div img[src*="blog-post-img5"] {object-position:center 65%;transform:none;}
+#main  #section11 .wrap .gap .container > ul > li:hover > div ul li > div img[src*="blog-post-img5"],
+#main  #section11 .wrap .gap .container > ul > li:focus > div ul li > div img[src*="blog-post-img5"] {transform:none;}
 #main  #section11 .wrap .gap .container > ul > li:hover > div ul li > div img{transform:scale(1.15);}
 #main  #section11 .wrap .gap .container > ul > li:focus {outline:0;}
 #main  #section11 .wrap .gap .container > ul > li:focus > div ul li > div img{transform:scale(1.15);}
 
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div {display:table-cell;vertical-align:middle;text-align:center;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div h3 {font-size:11px;color:#ababab;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p {font-size:20px;line-height:135%;padding:7.2202166%  14.4404332%;}
-#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p a {color:#626262;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div {display:table-cell;vertical-align:top;text-align:center;padding:28px 0 24px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div h3 {font-size:11px;color:#ababab;margin-bottom:10px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.post-title {font-size:20px;line-height:135%;padding:0 14.4404332% 10px;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.post-title a {color:#626262;}
+#main  #section11 .wrap .gap .container > ul > li > div ul li > div div p.excerpt {font-size:13px;line-height:150%;color:#8a8a8a;padding:0 14.4404332% 12px;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div div h6 {width:100%;}
 #main  #section11 .wrap .gap .container > ul > li > div ul li > div div h6 i {display:inline-block;width:30px;height:2.2px;background:#c8a64b}
 
